@@ -113,7 +113,7 @@ Description: PulseAudio audio output and input modules for xrdp
 CONTROL
 find "$stage/etc" -type f -printf '/etc/%P\n' | sort > "$stage/DEBIAN/conffiles"
 (cd "$stage"; find usr etc -type f -print0 | sort -z | xargs -0 md5sum > DEBIAN/md5sums)
-package="$out/pulseaudio-module-xrdp_${version}_arm64.deb"
+package="$out/pulseaudio-module-xrdp_0.8_debian13_arm64.deb"
 dpkg-deb --root-owner-group -Zxz --build "$stage" "$package"
 dpkg-deb --info "$package"
 dpkg-deb --contents "$package"

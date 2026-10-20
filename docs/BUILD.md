@@ -48,7 +48,7 @@ The PulseAudio source tree is used to generate headers. Its optional feature set
 ## Output
 
 ```text
-_build/packages/pulseaudio-module-xrdp_0.8-1~deb13+local1_arm64.deb
+_build/packages/pulseaudio-module-xrdp_0.8_debian13_arm64.deb
 _build/packages/SHA256SUMS
 ```
 

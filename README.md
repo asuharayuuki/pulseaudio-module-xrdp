@@ -19,7 +19,7 @@ The package contains compiled audio output and input modules. **No compilation i
 Download the `.deb` and checksums from [Releases](https://github.com/asuharayuuki/pulseaudio-module-xrdp/releases), or use the package in [dist/](dist/).
 
 ```sh
-sudo apt install ./pulseaudio-module-xrdp_0.8-1~deb13+local1_arm64.deb
+sudo apt install ./pulseaudio-module-xrdp_0.8_debian13_arm64.deb
 ```
 
 APT resolves the runtime dependencies. The modules use PulseAudio's private module API, so this package requires the exact PulseAudio version listed above. A different PulseAudio version requires a matching build. These modules are for PulseAudio and cannot be loaded by `pipewire-pulse`.
